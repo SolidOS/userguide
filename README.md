@@ -2,6 +2,8 @@
 description: User Guide For Data Browser
 ---
 
+Solid is a platform, built using the existing web. It gives every user a choice about where data is stored, which specific people and groups can access select elements, and which apps you use.
+
 # Data Browser User Guide
 
 ## Getting Started
