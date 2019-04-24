@@ -81,6 +81,6 @@ _Tip: drag and drop a file to the green plus and it will be uploaded to that dir
 
 ## Using third-party apps
 
-Before you can use third-party apps you need to whitelist them. This feature was introduced in node-solid-server in March 2019, and is due to be activated by the main pod servers some time in 2019. To white-list a third-party app, go to your profile URL (including the '#me' at the end), hover your cursor over the '(your name)' header, and select the 'A' icon.
+Before you can use third-party apps, you need to whitelist them. This feature was introduced in node-solid-server in March 2019, and is due to be activated by the main pod servers sometime in 2019. To white-list a third-party app, go to your profile URL (including the '#me' at the end), hover your cursor over the '(your name)' header, and select the 'A' icon.
 ![image](https://user-images.githubusercontent.com/408412/56293390-42931680-6129-11e9-8a7d-88d6b4900e62.png)
 ![image](https://user-images.githubusercontent.com/408412/56293551-8a19a280-6129-11e9-8ec0-f9b18172e515.png)
