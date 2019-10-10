@@ -3,84 +3,141 @@ description: User Guide For Data Browser
 ---
 
 # Data Browser User Guide
+The Data Browser is intended to be extremely flexible and provide all the basic functionality to allow people to easily manage data on Solid, be that social core with contact management and collaborate with your friends, or the more complex use cases, such as a researcher organizing their data and research on a variety of data sources.
 
-## Getting Started
+The Data Browser is your de-facto default interface to Solid, enabling you to create, share and collaborate on data stored within Solid Pods with your friends and contacts through social networks and applications. Using the Data Browser, you can coordinate all of your data in an interface that can be configured and extended to support all of your needs on Solid.
 
-To get started with the data browser click the **public** folder
+## Accessing
+To access the data stored in a Solid Pod via the Data Browser:
 
-![](.gitbook/assets/databrowser_home.png)
+1. In a web browser, navigate to the root Uniform Resource Locator (URL) for the Pod.
+2. You will see a view of the public data within the Pod:
 
-Click the green + and you will be able to add folders and apps.
+You can see different views of the data by clicking the various View icons just below the header.
 
-![](.gitbook/assets/databrowser_public.png)
+_Tip: To return to the default View, click the Solid icon in the top-left corner of the Data Browser._
 
-![](.gitbook/assets/databrowser_apps.png)
+## Log In
+To access your data, and data to which you have permission to access, you must log in:
+1. Click the **Log in** button.
+2. The "Select your Identity Provider" dialog is displayed:
+3. Either enter you WebID into the textbox and click **Go** or pick your identity provider from the list.
+4. The "Login" dialog is presented prompting you to enter your Username and Password:
+5. After a successful login, you can view of all of the data to which you have read permission within the Pod:
 
-The databrowser contains many apps.
+## Navigation
 
-## Address Book
+## Creating new Data
+You can create new folders and data within any Pod folder to which you have create access.
 
-Adds a list of contacts
+To create a new folder or data resource:
+1. Navigate to the folder in which you want to create the new resource.
+2. Click the green **+** icon for the folder.
+3. Several icons are displayed showing the types of resource that can be created:
+    * [Address Book](./ADDRESSBOOK.md). List of contacts.
+    * Chat. A short chat session.
+    * [Dokieli](https://dokie.li/). Clientside editor for decentralised article publishing, annotations and social interactions.    * Meeting. Setup a meeting.
+    * Folder. Create a new named folder.
+    * [Long Chat](./LONGCHAT.md). A multi-day chat session.
+    * Note Pad. A multi-user notepad.
+    * Scheduled Event.
+    * [Source](./SOURCE.md). Text files, including Turtle.
+4. Select the type of resource you want to create.
+5. Enter the name of the new resource, and click the green **✓** (Continue) button.
 
-![](.gitbook/assets/db_address.png)
+_Tip: Dokieli documents must have a `.html` extension._
 
-## Pad
-
-Gives a multi user notepad
-
-![](.gitbook/assets/db_pad.png)
-
-## Chat
-
-Creates a chat session
-
-![](.gitbook/assets/db_chat.png)
-
-## Long Chat
-
-Gives a multi day chat session
-
-![](.gitbook/assets/db_chat%20%282%29.png)
-
-## Meeting
-
-Creates a meeting with many addons
-
-![](.gitbook/assets/db_meeting.png)
-
-## Folder
-
-Creates a new folder
-
-![](.gitbook/assets/db_folder.png)
-
-## Source
-
-Allows you to create new files, view and edit source code for files
-
-![](.gitbook/assets/db_source.png)
-
-There are many more apps and panes in the data browser.  One for each class it's also extensible and customizable, so enjoy exploring!
-
-_Tip: drag and drop a file to the green plus and it will be uploaded to that directory_
-
-## Deleting a file
-
-1. Open your solid community profile,
-2. Navigate to and open File/Folder you want to Delete
-4. Now, move your cursor over the name of the file or Folder. You will see some icons showing up.
-5.  Click on the 'Settings' icon 
-![image](https://user-images.githubusercontent.com/29155477/46451992-fc8eea80-c7b6-11e8-941e-aaad3f1e5f95.png)
+_Tip: Drag and drop a file onto the green **+**, and it will be uploaded to that directory._
 
 
-6. Now hover your mouse cursor to the left of the 'Refresh icon'. A red colored 'Remove' icon will become visible. 
+## Viewing your Data
+You can view the contents of any folders and/or data resources to which you have access. 
+
+To view an existing folder or data resource:
+1. Navigate to the folder containing the resource.
+2. Open the resource by clicking the grey right arrow next to the resource.
+3. Depending upon the type of resource selected, different view options can be displayed:
+    * About.
+    * Data.
+    * Data as N3.
+    * Dokieli.
+    * Folder.
+    * Source.
+    * RDF/XML.
+    * Settings (Under the Hood).
+    * Sharing. Display/update the sharing permissions for the resource.
+    * Slideshow. Display a slideshow of the images contained within the folder.
+    Additionally, if the selected resource is of a well-known type (e.g., Address Book, Chat, Dokieli, etc.), it will automatically be opened in that view.
+4. Click the appropriate icon to view the resource in the desired manner.
+
+_Tip: Each of the icons are toggle buttons. Click the icon again to close the view._
+
+## Deleting existing Data
+You can delete existing folder and data resources to which you have delete permission.
+
+To delete an existing data resource:
+1. Navigate to and open the resource you want to delete.
+2. Click on the 'Settings' (Under the Hood) icon.
+3. Hover your mouse cursor to the left of the 'Refresh icon'. A red colored 'Remove' icon will become visible. 
 ![image](https://user-images.githubusercontent.com/29155477/46452008-16c8c880-c7b7-11e8-83f6-16c1ba4ab12f.png)
+4. Click the 'Remove' icon.
+5. Confirm the deletion.
 
+## Preferences
+You can configure your Data Browser user experience, manage your trusted applications or even delete your Solid account via the Preferences view.
 
-7. Click it & Confirm deletion.  
+To display the Preferences view:
+1. Either click the Solid logo or select **Preferences** from the dropdown menu in the top-right of the Data Browser.
+2. Click the **Preferences** tab.
 
-## Using third-party apps
+### Role
+To streamline the options presented when viewing data, you can select your role:
+* Normal User. Can view all standard social views.
+* Developer. In addition to Normal User, view Data, N3, and RDF views of the data.
+* Power User. In addition to Normal User, view additional Data Browser views such as Note Pad and Meetings.
 
-Before you can use third-party apps you need to whitelist them. This feature was introduced in node-solid-server in March 2019, and is due to be activated by the main pod servers some time in 2019. To white-list a third-party app, go to your profile URL (including the '#me' at the end), hover your cursor over the '(your name)' header, and select the 'A' icon.
-![image](https://user-images.githubusercontent.com/408412/56293390-42931680-6129-11e9-8a7d-88d6b4900e62.png)
-![image](https://user-images.githubusercontent.com/408412/56293551-8a19a280-6129-11e9-8ec0-f9b18172e515.png)
+Multiple roles can be selected.
+
+To update:
+1. Select you role(s) from the listbox.
+
+_Tip: You need to refresh your web browser for the role changes to take affect._
+
+### Manage your trusted applications
+
+Before you can use third-party applications, you need to whitelist them (i.e., trust them to access data within your Pod). 
+
+To whitelist a new third-party application, at the bottom of the table of trusted applications:
+1. Enter the URL of the new application.
+2. Select the permissions, or Access Modes, you want to give to the new application.
+3. Click **Add**.
+
+To update the permissions for an existing trusted application, in the table of trusted applications:
+1. Update the permssions for the application.
+2. Click **Update**.
+
+To revoke access for an existing trusted application, in the table of trusted applications:
+1. Click **Delete** next to the application.
+2. The application is immediately removed from the list of trusted applications.
+
+### Delete your Solid account
+If you no longer want your Solid Pod, you can delete your account.
+1. Click the **Delete your account** link at the bottom of the Preferences page.
+2. You are redirected to the Delete Account page for the Solid server.
+3. Follow the displayed instructions to delete your account.
+
+_Tip: Once your account is deleted, all of the data is deleted and cannot be restored._
+
+## Edit you profile
+You can setup a public profile that will be visible to visitors to your Pod.
+
+To edit your public profile:
+1. Either:
+    * Click the Solid logo, and then click the "Edit your profile" tab; or,
+    * Select "Edit your profile" from the dropdown menu in the top-right corner of the Data Browser.
+2. Enter:
+    * Contact information about yourself that you want to make public. You can add multiple Addresses, Phones, and Emails.
+    * Public contacts by dragging-and-dropping WebIDs of those contacts onto the target icon.
+    * The background and highlight colors in which your public profile should be displayed.
+
+## Your storage
