@@ -13,6 +13,8 @@ To access the data stored in a Solid Pod via the Data Browser:
 1. In a web browser, navigate to the root Uniform Resource Locator (URL) for the Pod.
 2. You will see a view of the public data within the Pod:
 
+![Home View (Public)](/images/Public Home.png?raw=true "Home View (Public)")
+
 You can see different views of the data by clicking the various View icons just below the header.
 
 _Tip: To return to the default View, click the Solid icon in the top-left corner of the Data Browser._
