@@ -13,11 +13,11 @@ To access the data stored in a Solid Pod via the Data Browser:
 1. In a web browser, navigate to the root Uniform Resource Locator (URL) for the Pod.
 2. You will see a view of the public data within the Pod:
 
-    <img src=".gitbook/assets//Public_Home.png" alt="Home View (Public)" width="50%" height="50%" style="border: 1">
+    <img src=".gitbook/assets//Public_Home.png" alt="Home View (Public)" width="1024" style="border: 1; border-style:solid; border-color: rgb(200,200,200)">
 
 You can see different views of the data by clicking the various View icons just below the header. For example, the Folder view:
 
-<img src=".gitbook/assets//Public_Folder.png" alt="Folder View (Public)" width="50%" height="50%" style="border: 1">
+<img src=".gitbook/assets//Public_Folder.png" alt="Folder View (Public)" width="1024" style="border: 1; border-style:solid; border-color: rgb(200,200,200)">
 
 _Tip: To return to the default View, click the Solid icon in the top-left corner of the Data Browser._
 
@@ -26,11 +26,12 @@ To access your data, and data to which you have permission to access, you must l
 1. Click the **Log in** button.
 2. The "Select your Identity Provider" dialog is displayed:
 
-    <img src=".gitbook/assets//Select_Your_Identity_Provider.png" alt="Select your Identity Provider dialog" width="50%" height="50%" style="border: 1">
+    <img src=".gitbook/assets//Select_Your_Identity_Provider.png" alt="Select your Identity Provider dialog" width="650">
 
 3. Either enter you WebID into the textbox and click **Go** or pick your identity provider from the list.
 4. The "Login" dialog is presented prompting you to enter your Username and Password:
-    <img src=".gitbook/assets/Login_Dialog.png" alt="Node Solid Server Login dialog" width="50%" height="50%" style="border: 1">
+
+    <img src=".gitbook/assets/Login_Dialog.png" alt="Node Solid Server Login dialog" width="650">
 
     _Note: The actual form of the Login dialog depends upon the version of Solid server you are using._
 5. After a successful login, you can [view](#Viewing-your-Data) of all of the data to which you have read permission within the Pod
@@ -44,15 +45,15 @@ To create a new folder or data resource:
 1. Navigate to the folder in which you want to create the new resource.
 2. Click the green **+** icon for the folder.
 3. Several icons are displayed showing the types of resource that can be created:
-    * [Address Book](views/addressbook.md). List of contacts.
-    * [Chat](views/chat.md). A short chat session.
-    * [Dokieli](https://dokie.li/). Clientside editor for decentralised article publishing, annotations and social interactions.
-    * Meeting. Setup a meeting.
-    * Folder. Create a new named folder.
-    * [Long Chat](/iews/longchat.md). A multi-day chat session.
-    * Note Pad. A multi-user notepad.
-    * Scheduled Event.
-    * [Source](views/source.md). Text files, including Turtle.
+    * <img src=".gitbook/icons/addressbook.svg" alt="Address Book" width="24" height="24"> [Address Book](views/addressbook.md). List of contacts.
+    * <img src=".gitbook/icons/chat.svg" alt="Chat" width="24" height="24"> [Chat](views/chat.md). A short chat session.
+    * <img src=".gitbook/icons/dokieli.png" alt="Dokieli" width="24" height="24"> [Dokieli](https://dokie.li/). Clientside editor for decentralised article publishing, annotations and social interactions.
+    * <img src=".gitbook/icons/folder.svg" alt="Folder" width="24" height="24"> Folder. Create a new named folder.
+    * <img src=".gitbook/icons/longchat.svg" alt="Long Chat" width="24" height="24"> [Long Chat](views/longchat.md). A multi-day chat session.
+    * <img src=".gitbook/icons/meeting.svg" alt="Meeting" width="24" height="24"> Meeting. Setup a meeting.
+    * <img src=".gitbook/icons/notepad.svg" alt="Note Pad" width="24" height="24"> Note Pad. A multi-user notepad.
+    * <img src=".gitbook/icons/scheduledevent.svg" alt="Scheduled Event" width="24" height="24"> Scheduled Event.
+    * <img src=".gitbook/icons/source.svg" alt="Source" width="24" height="24"> [Source](views/source.md). Create a text files (e.g., Turtle, JSON, RDF, ShEx and SHACL shapes, etc.).
 4. Select the type of resource you want to create.
 5. Enter the name of the new resource, and click the green **✓** (Continue) button.
 
@@ -67,16 +68,17 @@ To view an existing folder or data resource:
 1. Navigate to the folder containing the resource.
 2. Open the resource by clicking the grey right arrow next to the resource.
 3. Depending upon the type of resource selected, different view options can be displayed:
-    * About.
-    * Data.
-    * Data as N3.
-    * [Dokieli](https://dokie.li/). Clientside editor for decentralised article publishing, annotations and social interactions.
-    * Folder.
-    * Source.
-    * RDF/XML.
-    * Settings (Under the Hood).
-    * Sharing. Display/update the sharing permissions for the resource.
+    * <img src=".gitbook/icons/about.png" alt="About" width="24" height="24"> [About](views/about.md).
+    * <img src=".gitbook/icons/data.gif" alt="Data" width="24" height="24"> Data.
+    * <img src=".gitbook/icons/dataasn3.png" alt="Data as N3" width="24" height="24"> Data as N3.
+    * <img src=".gitbook/icons/dokieli.png" alt="Dokieli" width="24" height="24"> [Dokieli](https://dokie.li/). Clientside editor for decentralised article publishing, annotations and social interactions.
+    * <img src=".gitbook/icons/folder.svg" alt="Folder" width="24" height="24"> Folder.
+    * <img src=".gitbook/icons/rdfxml.png" alt="RDF/XML" width="24" height="24"> RDF/XML.
+    * <img src=".gitbook/icons/underthehood.png" alt="Settings" width="24" height="24"> Settings (Under the Hood).
+    * <img src=".gitbook/icons/sharing.svg" alt="Sharing" width="24" height="24"> [Sharing](views/sharing.md). Display/update the sharing permissions for the resource.
     * Slideshow. Display a slideshow of the images contained within the folder.
+    * <img src=".gitbook/icons/source.svg" alt="Source" width="24" height="24"> [Source](views/source.md). Display the source of a text file.
+
     Additionally, if the selected resource is of a well-known type (e.g., Address Book, Chat, Dokieli, etc.), it will automatically be opened in that view.
 4. Click the appropriate icon to view the resource in the desired manner.
 
@@ -89,7 +91,8 @@ To delete an existing data resource:
 1. Navigate to and open the resource you want to delete.
 2. Click on the 'Settings' (Under the Hood) icon.
 3. In the displayed panel, hover your mouse cursor to the left of the 'Refresh icon'. A red colored 'Remove' icon will become visible:
-    <img src=".gitbook/assets/Delete_Resource.png" alt="Delete an existing Resource" width="50%" height="50%" style="border: 1">
+
+    <img src=".gitbook/assets/Delete_Resource.png" alt="Delete an existing Resource" width="632">
 
 4. Click the 'Remove' icon.
 5. Confirm the deletion by clicking the **Delete file** button.
@@ -115,7 +118,7 @@ Multiple roles can be selected.
 To update:
 1. Select you role(s) from the Roles listbox:
 
-<img src=".gitbook/assets/Roles_Listbox.png" alt="Roles listbox" width="50%" height="50%" style="border: 1">
+    <img src=".gitbook/assets/Roles_Listbox.png" alt="Roles listbox" width="109">
 
 2. Click off the listbox.
 
@@ -125,7 +128,7 @@ _Tip: You need to refresh your web browser for the role changes to take affect._
 
 Before you can use third-party applications, you need to whitelist them (i.e., trust them to access data within your Pod) via the Trusted Application table:
 
-<img src=".gitbook/assets/Manage_Your_Trusted_Apps.png" alt="Manage your Trusted Applications table" width="50%" height="50%" style="border: 1">
+<img src=".gitbook/assets/Manage_Your_Trusted_Apps.png" alt="Manage your Trusted Applications table" width="1024" style="border: 1; border-style:solid; border-color: rgb(200,200,200)">
 
 #### Add
 To whitelist a new third-party application, at the bottom of the table of trusted applications:
