@@ -13,11 +13,11 @@ To access the data stored in a Solid Pod via the Data Browser:
 1. In a web browser, navigate to the root Uniform Resource Locator (URL) for the Pod.
 2. You will see a view of the public data within the Pod:
 
-![Home View (Public)](.gitbook/assets//Public_Home.png?raw=true "Home View (Public)")
+    <img src=".gitbook/assets//Public_Home.png" alt="Home View (Public)" width="50%" height="50%" style="border: 1">
 
 You can see different views of the data by clicking the various View icons just below the header. For example, the Folder view:
 
-![Folder View (Public)](.gitbook/assets//Public_Folder.png?raw=true "Folder View (Public)")
+<img src=".gitbook/assets//Public_Folder.png" alt="Folder View (Public)" width="50%" height="50%" style="border: 1">
 
 _Tip: To return to the default View, click the Solid icon in the top-left corner of the Data Browser._
 
@@ -26,11 +26,12 @@ To access your data, and data to which you have permission to access, you must l
 1. Click the **Log in** button.
 2. The "Select your Identity Provider" dialog is displayed:
 
-    ![Select your Identity Provider dialog](.gitbook/assets/Select_Your_Identity_Provider.png?raw=true "Select your Identity Provider dialog")
+    <img src=".gitbook/assets//Select_Your_Identity_Provider.png" alt="Select your Identity Provider dialog" width="50%" height="50%" style="border: 1">
 
 3. Either enter you WebID into the textbox and click **Go** or pick your identity provider from the list.
 4. The "Login" dialog is presented prompting you to enter your Username and Password:
-    ![Node Solid Server Login dialog](.gitbook/assets/Login_Dialog.png?raw=true "Node Solid Server Login dialog")
+    <img src=".gitbook/assets/Login_Dialog.png" alt="Node Solid Server Login dialog" width="50%" height="50%" style="border: 1">
+
     _Note: The actual form of the Login dialog depends upon the version of Solid server you are using._
 5. After a successful login, you can [view](#Viewing-your-Data) of all of the data to which you have read permission within the Pod
 
@@ -88,7 +89,8 @@ To delete an existing data resource:
 1. Navigate to and open the resource you want to delete.
 2. Click on the 'Settings' (Under the Hood) icon.
 3. In the displayed panel, hover your mouse cursor to the left of the 'Refresh icon'. A red colored 'Remove' icon will become visible:
-    ![Delete Resource](.gitbook/assets/Delete_Resource.png?raw=true "Delete an existing Resource")
+    <img src=".gitbook/assets/Delete_Resource.png" alt="Delete an existing Resource" width="50%" height="50%" style="border: 1">
+
 4. Click the 'Remove' icon.
 5. Confirm the deletion by clicking the **Delete file** button.
 
@@ -99,6 +101,7 @@ You can configure your Data Browser user experience by setting your [roles(s)](#
 
 To display the Preferences view:
 1. Either click the Solid logo or select **Preferences** from the dropdown menu in the top-right of the Data Browser.
+
 2. Click the **Preferences** tab.
 
 ### Role
@@ -112,7 +115,8 @@ Multiple roles can be selected.
 To update:
 1. Select you role(s) from the Roles listbox:
 
-    ![Roles listbox](.gitbook/assets/Roles_Listbox.png?raw=true "Roles listbox")
+<img src=".gitbook/assets/Roles_Listbox.png" alt="Roles listbox" width="50%" height="50%" style="border: 1">
+
 2. Click off the listbox.
 
 _Tip: You need to refresh your web browser for the role changes to take affect._
@@ -121,7 +125,7 @@ _Tip: You need to refresh your web browser for the role changes to take affect._
 
 Before you can use third-party applications, you need to whitelist them (i.e., trust them to access data within your Pod) via the Trusted Application table:
 
-![Manage your Trusted Applications table](.gitbook/assets/Manage_Your_Trusted_Apps.png?raw=true "Manage your Trusted Applications table")
+<img src=".gitbook/assets/Manage_Your_Trusted_Apps.png" alt="Manage your Trusted Applications table" width="50%" height="50%" style="border: 1">
 
 #### Add
 To whitelist a new third-party application, at the bottom of the table of trusted applications:
