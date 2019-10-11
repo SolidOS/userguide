@@ -12,6 +12,7 @@ To access the data stored in a Solid Pod via the Data Browser:
 
 1. In a web browser, navigate to the root Uniform Resource Locator (URL) for the Pod.
 2. You will see a view of the public data within the Pod:
+
     <img src=".gitbook/assets//Public_Home.png" alt="Home View (Public)" width="1024" style="border: 1; border-style:solid; border-color: rgb(200,200,200)">
 
 You can see different views of the data by clicking the various View icons just below the header. For example, the Folder view:
@@ -24,10 +25,14 @@ _Tip: To return to the default View, click the Solid icon in the top-left corner
 To access your data, and data to which you have permission to access, you must log in:
 1. Click the **Log in** button.
 2. The **Select your Identity Provider** dialog is displayed:
+
     <img src=".gitbook/assets//Select_Your_Identity_Provider.png" alt="Select your Identity Provider dialog" width="650">
+
 3. Either enter you WebID into the textbox and click **Go**, or pick your identity provider from the list.
 4. The **Login** dialog is presented prompting you to enter your Username and Password:
+
     <img src=".gitbook/assets/Login_Dialog.png" alt="Node Solid Server Login dialog" width="650">
+
     _Note: The actual form of the Login dialog depends upon the version of Solid server you are using._
 5. After a successful login, you can [view](#Viewing-your-Data) of all of the data to which you have read permission within the Pod.
 
@@ -100,9 +105,11 @@ You can delete existing folder and data resources to which you have delete permi
 
 To delete an existing data resource:
 1. Navigate to and open the resource you want to delete.
-2. Click on the <img src=".gitbook/icons/underthehood.png" alt="Settings" width="16" height="16"> Settings (Under the Hood) icon.
+2. Click on the <img src="views/settings/underthehood.png" alt="Settings" width="16" height="16"> Settings (Under the Hood) icon.
 3. In the displayed panel, hover your mouse cursor to the left of the <img src=".gitbook/icons/refresh.svg" alt="Refresh" width="16" height="16"> Refresh icon. A <img src=".gitbook/icons/delete.svg" alt="Remove" width="16" height="16"> Remove icon will become visible:
+
     <img src=".gitbook/assets/Delete_Resource.png" alt="Delete an existing Resource" width="632">
+
 4. Click the 'Remove' icon.
 5. Confirm the deletion by clicking the **Delete file** button.
 
@@ -121,8 +128,8 @@ _Tip: Alternatively, you can access some of the context-free functionality by cl
 You can view how other people see your profile.
 
 To view your public profile:
-1. Select **Your storage** from the dropdown menu.
-2. A Folder view of your storage is displayed.
+1. Select **Show your profile** from the dropdown menu.
+2. Your public profile 
 
 
 ### Your stuff
@@ -147,6 +154,7 @@ To update:
 1. Select you role(s) from the Roles listbox:
 
     <img src=".gitbook/assets/Roles_Listbox.png" alt="Roles listbox" width="109">
+    
 2. Click off the listbox.
 
 _Tip: You need to refresh your web browser for the role changes to take affect._
