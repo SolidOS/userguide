@@ -56,16 +56,16 @@ To view an existing folder or data resource:
 1. [Navigate](#Navigation) to the folder containing the resource.
 2. Open the resource by clicking the <img src=".gitbook/icons/tbl-expand-trans.png" alt="Expand" width="16" height="16"> icon next to the resource.
 3. Depending upon the type of resource selected, different view options can be displayed:
-    * <img src=".gitbook/icons/about.png" alt="About" width="16" height="16"> [About](views/about.md).
+    * <img src=".gitbook/icons/about.png" alt="About" width="16" height="16"> About.
     * <img src=".gitbook/icons/data.gif" alt="Data" width="16" height="16"> Data.
     * <img src=".gitbook/icons/dataasn3.png" alt="Data as N3" width="16" height="16"> Data as N3.
     * <img src=".gitbook/icons/dokieli.png" alt="Dokieli" width="16" height="16"> [Dokieli](https://dokie.li/). Clientside editor for decentralised article publishing, annotations and social interactions.
     * <img src=".gitbook/icons/folder.svg" alt="Folder" width="16" height="16"> Folder.
     * <img src=".gitbook/icons/rdfxml.png" alt="RDF/XML" width="16" height="16"> RDF/XML.
-    * <img src=".gitbook/icons/underthehood.png" alt="Settings" width="16" height="16"> Settings (Under the Hood).
-    * <img src=".gitbook/icons/sharing.svg" alt="Sharing" width="16" height="16"> [Sharing](views/sharing.md). Display/update the sharing permissions for the resource.
+    * <img src="views/settings/underthehood.png" alt="Settings" width="16" height="16"> [Settings](views/settings/README.md). Access 'under the hood' functionality regarding the resource.
+    * <img src="views/sharing/sharing.svg" alt="Sharing" width="16" height="16"> [Sharing](views/sharing/README.md). Display/update the sharing permissions for the resource.
     * <img src=".gitbook/icons/slideshow.svg" alt="Slideshow" width="16" height="16"> Slideshow. Display a slideshow of the images contained within the folder.
-    * <img src=".gitbook/icons/source.svg" alt="Source" width="16" height="16"> [Source](views/source.md). Display the source of a text file.
+    * <img src="views/source/source.svg" alt="Source" width="16" height="16"> [Source](views/source/README.md). Display the source of a text file.
     Additionally, if the selected resource is of a well-known type (e.g., Address Book, Chat, Dokieli, etc.), it will automatically be opened in that view.
 4. Click the appropriate icon to view the resource in the desired manner.
 
@@ -78,14 +78,14 @@ To create a new folder or data resource:
 1. [Navigate](#Navigation) to the folder in which you want to create the new resource.
 2. Click the <img src=".gitbook/icons/greenplus.svg" alt="Create" width="16" height="16"> icon for the folder.
 3. Several icons are displayed showing the types of resource that can be created:
-    * <img src=".gitbook/icons/addressbook.svg" alt="Address Book" width="16" height="16"> [Address Book](views/addressbook.md). List of contacts.
-    * <img src=".gitbook/icons/chat.svg" alt="Chat" width="16" height="16"> [Chat](views/chat.md). A short chat session.
+    * <img src="views/addressbook/addressbook.svg" alt="Address Book" width="16" height="16"> [Address Book](views/addressbook/README.md). List of contacts.
+    * <img src="views/chat/chat.svg" alt="Chat" width="16" height="16"> [Chat](views/chat/README.md). A short chat session.
     * <img src=".gitbook/icons/dokieli.png" alt="Dokieli" width="16" height="16"> [Dokieli](https://dokie.li/). Clientside editor for decentralised article publishing, annotations and social interactions.
     * <img src=".gitbook/icons/folder.svg" alt="Folder" width="16" height="16"> Folder. Create a new named folder.
-    * <img src=".gitbook/icons/longchat.svg" alt="Long Chat" width="16" height="16"> [Long Chat](views/longchat.md). A multi-day chat session.
-    * <img src=".gitbook/icons/meeting.svg" alt="Meeting" width="16" height="16"> Meeting. Setup a meeting.
-    * <img src=".gitbook/icons/notepad.svg" alt="Note Pad" width="16" height="16"> Note Pad. A multi-user notepad.
-    * <img src=".gitbook/icons/scheduledevent.svg" alt="Scheduled Event" width="16" height="16"> Scheduled Event.
+    * <img src="views/longchat/longchat.svg" alt="Long Chat" width="16" height="16"> [Long Chat](views/longchat.md). A multi-day chat session.
+    * <img src="views/meeting/meeting.svg" alt="Meeting" width="16" height="16"> [Meeting](views/meeting/README.md). Setup a meeting.
+    * <img src="views/notepad/notepad.svg" alt="Note Pad" width="16" height="16"> [Note Pad](views/notepad/README.md). A multi-user notepad.
+    * <img src="views/scheduledevent/scheduledevent.svg" alt="Scheduled Event" width="16" height="16"> [Scheduled Event](views/scheduledevent/README.md).
     * <img src=".gitbook/icons/source.svg" alt="Source" width="16" height="16"> [Source](views/source.md). Create a text files (e.g., Turtle, JSON, RDF, ShEx and SHACL shapes, etc.).
 4. Select the type of resource you want to create.
 5. Enter the name of the new resource, and click the <img src=".gitbook/icons/continue.svg" alt="Continue" width="16" height="16"> Continue button.
@@ -118,8 +118,15 @@ To access the context-free functionality:
 _Tip: Alternatively, you can access some of the context-free functionality by clicking the Solid logo in the Data Browser header, and then click the appropriate tab._
 
 ### Show your profile
+You can view how other people see your profile.
+
+To view your public profile:
+1. Select **Your storage** from the dropdown menu.
+2. A Folder view of your storage is displayed.
+
 
 ### Your stuff
+
 
 ### Preferences
 You can configure your Data Browser user experience by setting your [roles(s)](#Role), [manage your trusted applications](#Manage-your-trusted-applications) or even [delete your Solid account](#Delete-your-Solid-account) via the Preferences view.
@@ -188,4 +195,8 @@ To edit your public profile:
     * The background and highlight colors in which your public profile should be displayed.
 
 ### Your storage
+Even if you have navigated to a different Pod, you can still view your storage.
 
+To view your storage:
+1. Select **Your storage** from the dropdown menu.
+2. A Folder view of your storage is displayed.

@@ -2,4 +2,4 @@
 description: User Guide For Long Chat Data Browser view
 ---
 
-# Long Chat User Guide
+# Long Chat View User Guide
