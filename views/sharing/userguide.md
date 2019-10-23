@@ -20,7 +20,7 @@ By default, resources within a folder inherit the permissions from the parent fo
 
 To set specific sharing for the resource:
 1. Click the **Set the sharing of folder contents separately from the sharing for the folder** button.
-2. This causes the a set of sharing groups (Owners, Editors, Posters, Submitters, Viewers) for the specific resource to be displayed.
+2. This causes the sharing groups (Owners, Editors, Posters, Submitters, Viewers) for the specific resource to be displayed.
 
 To reset the sharing for the resource back to the default:
 1. Click the **Stop specific sharing for this folder/file** button.
