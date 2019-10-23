@@ -4,7 +4,7 @@ description: User Guide For Source Data Browser view
 
 # Source View User Guide
 
-The sources for data resources (e.g., .ttl, html, etc.) can be viewed and edited via the Source view. 
+The source of data resources (e.g., Turtle, HTML, etc.) can be viewed and edited via the Source view. 
 
 ## View
 To display the Source view for a folder or data resource:
