@@ -3,7 +3,7 @@ description: User Guide For Sharing Data Browser view
 ---
 
 # Sharing View User Guide
-Solid allows you to control who can access folders and data resources within your Pod, and what permission have - read, create, update, delete. 
+Solid allows you to control who can access folders and data resources within your Pod, and what permission they have — i.e., read, create, update, and/or delete. 
 
 ## View
 To display the Sharing view for a folder or data resource:
