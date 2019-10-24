@@ -4,6 +4,12 @@ description: User Guide For Source Data Browser view
 
 # Source View User Guide
 
+- [Introduction](#introduction)
+- [View](#view)
+- [Edit](#edit)
+- [Save / Cancel](#save--cancel)
+
+## Introduction
 The source of data resources (e.g., Turtle, HTML, etc.) can be viewed and edited via the Source view. 
 
 ## View

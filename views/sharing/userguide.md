@@ -3,6 +3,16 @@ description: User Guide For Sharing Data Browser view
 ---
 
 # Sharing View User Guide
+
+- [Introduction](#introduction)
+- [View](#view)
+- [Specific Sharing for a Resource](#specific-sharing-for-a-resource)
+- [Custom Sharing](#custom-sharing)
+  - [Add](#add)
+  - [Adjust](#adjust)
+  - [Remove](#remove)
+  
+## Introduction
 Solid allows you to control who can access folders and data resources within your Pod, and what permission they have — i.e., read, create, update, and/or delete. 
 
 ## View
@@ -12,6 +22,8 @@ To display the Sharing view for a folder or data resource:
 3. The Sharing settings for the selected resource are displayed:
 
 <img src="Sharing_View.png" alt="Sharing" width="1024" style="border: 1; border-style:solid; border-color: rgb(200,200,200)">
+
+For each of the Sharing groups - Owners, Editors, Posters, Submitters, Viewers, the Sharing view displays the group members and the assigned permissions.
 
 _Tip: Clicking the <img src="https://solid.github.io/solid-ui/src/originalIcons/go-to-this.png" alt="Sharing" width="16"> Goto This icon next to the user's Profile image/name will display the user's profile._
 
@@ -60,6 +72,6 @@ To move an entity between sharing groups:
 
 ### Remove
 To remove an entity from a sharing group:
-1. Hover the mouse pointer over the <img src="https://solid.github.io/solid-ui/src/originalIcons/go-to-this.png" alt="Sharing" width="16"> Goto This icon next to the user's Profile image/name.
+1. Hover the mouse pointer over the <img src="https://solid.github.io/solid-ui/src/originalIcons/go-to-this.png" alt="Goto This" width="16"> Goto This icon next to the user's Profile image/name.
 2. A <img src="https://solid.github.io/solid-ui/src/icons/noun_2188_red.svg" alt="Sharing" width="16"> Remove icon is displayed. 
-3. Click the Remove icon to remove the sharing access for the entity.
+3. Click the <img src="https://solid.github.io/solid-ui/src/icons/noun_2188_red.svg" alt="Sharing" width="16"> Remove icon to remove the sharing access for the entity.
