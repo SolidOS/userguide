@@ -5,7 +5,7 @@ description: User Guide For Profile Data Browser view
 # Profile User Guide
 
 - [Introduction](#introduction)
-- [Friends View](#friends-view)
+- [Friends](#friends)
    - [Add public Friends](#add-public-friends)
    - [Remove public Friends](#remove-public-friends)
 
@@ -31,7 +31,7 @@ Any public friends of the WebID of displayed on the Friends view, together with 
    <img src="Friends_View.png" alt="Friends View" width="1024" style="border: 1; border-style:solid; border-color: rgb(200,200,200)">
 
 ### Add public Friends
-If you have edit permission to the Profile, you can add more public Friends by dragging a WebID (e.g., https://windymiller.solid.community/profile/card#me) onto the Basic Information <img src="https://solid.github.io/solid-ui/src/icons/noun_748003.svg" alt="Target" width="16"> target.
+If you have edit permission to the Profile, you can add more public Friends by dragging a WebID onto the Basic Information <img src="https://solid.github.io/solid-ui/src/icons/noun_748003.svg" alt="Target" width="16"> target.
 
 ### Remove public Friends
 If you have edit permission to the Profile, you can remove public Friends by:
