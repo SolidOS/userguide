@@ -148,6 +148,7 @@ To display the Preferences view:
 To streamline the options presented when viewing data, you can select your role:
 * Normal User. Can view all standard social views.
 * Developer. In addition to Normal User, view Data, N3, and RDF views of the data.
+* Developer. A developer role is also able to overwrite root /index.html (your homepage) via the data browser.
 * Power User. In addition to Normal User, view additional Data Browser views such as Note Pad and Meetings.
 
 Multiple roles can be selected.
