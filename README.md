@@ -210,3 +210,11 @@ Even if you have navigated to a different Pod, you can still view your storage.
 To view your storage:
 1. Select **Your storage** from the dropdown menu.
 2. A Folder view of your storage is displayed.
+
+### Your friends
+If you want to add someone to your profile as a public friend or acquaintance, using the `foaf:knows` predicate, you can use the Social view. This is the colored icon that has four smileys in them:
+
+![image](https://user-images.githubusercontent.com/775139/68128362-df779e80-ff17-11e9-883a-04b4bb0b30d8.png)
+
+Clicking on this you'll have the ability to drag-and-drop URIs onto the list, which will add Solid friends to your profile. Make sure to use the whole webid of the friend you are adding, so including the `#me` ([screencast](https://vimeo.com/371135706)).
+
