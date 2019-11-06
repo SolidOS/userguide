@@ -216,5 +216,5 @@ If you want to add someone to your profile as a public friend or acquaintance, u
 
 ![image](https://user-images.githubusercontent.com/775139/68128362-df779e80-ff17-11e9-883a-04b4bb0b30d8.png)
 
-Clicking on this you'll have the ability to drag-and-drop URIs onto the list, which will add Solid friends to your profile. Make sure to use the whole webid of the friend you are adding, so including the `#me` ([screencast](https://vimeo.com/371135706)).
+Clicking on this will display a list, onto which you can drag-and-drop URIs, which will add Solid friends to your profile. Make sure to use the whole WebID of the friend you are adding, including, for instance, the `#me` or other fragment identifier ([screencast](https://vimeo.com/371135706)).
 
