@@ -33,7 +33,7 @@ The Data Browser is your de-facto default interface to Solid, enabling you to cr
 ## Accessing
 To access the data stored in a Solid Pod via the Data Browser:
 
-1. In a web browser, navigate to the root Uniform Resource Locator (URL) for the Pod you want to access (e.g., https://suser.solid.community):
+1. In a web browser, navigate to the root Uniform Resource Locator (URL) for the Pod you want to access (e.g., [`https://suser.solid.community`](https://suser.solid.community)):
 2. You will see a view of the public data within the Pod:
 
     <img src=".gitbook/assets//Public_Home.png" alt="Home View (Public)" width="1024" style="border: 1; border-style:solid; border-color: rgb(200,200,200)">
@@ -42,9 +42,9 @@ You can see different views of the data by clicking the various View icons just 
 
 <img src=".gitbook/assets//Public_Folder.png" alt="Folder View (Public)" width="1024" style="border: 1; border-style:solid; border-color: rgb(200,200,200)">
 
-_Tip: To return to the default View, click the Solid icon in the top-left corner of the Data Browser._
-_NB1: When viewing another person's pod, make sure to add the origin of that pod as a trusted app on your own profile._
-_NB2: When viewing another person's pod, if you want to make use of Developer or PowerUser features, you need to set your preferences file (often found at /settings/prefs.ttl on your pod) to be world-readable.
+_**Tip:** To return to the default View, click the Solid icon in the top-left corner of the Data Browser._<br />
+_**NB1:** When viewing another person's pod, make sure to add the origin of that pod as a trusted app on your own profile._<br />
+_**NB2:** When viewing another person's pod, if you want to make use of Developer or PowerUser features, you need to set your preferences file (often found at `/settings/prefs.ttl` in your pod) to be world-readable._
 
 ## Log In
 To access your data, and data to which you have permission to access, you must log in:
@@ -58,16 +58,16 @@ To access your data, and data to which you have permission to access, you must l
 
     <img src=".gitbook/assets/Login_Dialog.png" alt="Node Solid Server Login dialog" width="650">
 
-    _Note: The actual form of the Login dialog depends upon the version of Solid server you are using._
+    _**Note:** The actual form of the Login dialog will vary with the version of Solid server in use._
 5. After a successful login, you can [view](#viewing-your-data) of all of the data to which you have read permission within the Pod.
 
 ## Log Out
 To log out of the Solid account:
-1. Open the dropdown menu in to top-right corner of the Data Browser by clicking your Profile image.
+1. Open the dropdown menu in the top-right corner of the Data Browser by clicking your Profile image.
 2. Select **Log out**.
 
 ## Pod Functionality
-Via the Data Browser, you can browse and maintain the data within the Pod.
+You can use the Data Browser to browse and maintain the data within the Pod.
 
 ### Navigation
 The Data Browser allows you to navigate through the data to which you have read access.
@@ -77,7 +77,7 @@ The Data Browser allows you to navigate through the data to which you have read 
 3. The folder and data resources in the root folder are displayed as a tree.
 4. Nagivate through the tree by <img src="https://solid.github.io/solid-ui/src/originalIcons/tbl-expand-trans.png" alt="Expand" width="16">expanding and <img src="https://solid.github.io/solid-ui/src/originalIcons/tbl-collapse.png" alt="Collapse" width="16">collapsing folders and data resources.
 
-_Tip: You can enter the URL for a folder or data resource in the web browser address bar to navigate directly to that resource._
+_**Tip:** You can enter the URL for a folder or data resource in the web browser address bar to navigate directly to that resource._
 
 ### Viewing your Data
 You can view the contents of any folders and/or data resources to which you have access. 
@@ -110,7 +110,7 @@ To view an existing folder or data resource:
         * <img src="https://solid.github.io/solid-ui/src/originalIcons/22-text-xml4.png" alt="RDF/XML" width="16"> RDF/XML. Display the resource as RDF/XML.
 4. Click the appropriate icon to view the resource in the desired manner.
 
-_Tip: Each of the icons are toggle buttons. Click the icon again to close the view._
+_**Tip:** Each of the icons are toggle buttons. Click the icon again to close the view._
 
 ### Creating new Data
 You can create new folders and data within any Pod folder to which you have create access.
@@ -132,12 +132,12 @@ To create a new folder or data resource:
 5. Enter the name of the new resource, and click the <img src="https://solid.github.io/solid-ui/src/icons/noun_1180158.svg" alt="Continue" width="16"> Continue button.
 6. The selected resource will be created in the folder.
 
-_Tip: Dokieli documents must have a `.html` extension._
+_**Tip:** The filename extension of Dokieli documents must be `.html`._
 
-_Tip: Drag and drop a file onto the <img src="https://solid.github.io/solid-ui/src/icons/noun_34653_green.svg" alt="Create" width="16"> button, and it will be uploaded to that folder._
+_**Tip:** Drag and drop a file onto the <img src="https://solid.github.io/solid-ui/src/icons/noun_34653_green.svg" alt="Create" width="16"> button, and it will be uploaded to that folder._
 
 ### Deleting existing Data
-You can delete existing folder and data resources to which you have delete permission via the <img src="https://solid.github.io/solid-ui/src/originalIcons/tango/22-emblem-system.png" alt="Under the Hood" width="16"> [Under the Hood](https://github.com/solid/userguide/blob/master/views/underthehood/userguide.md) view.
+You can delete existing folder and data resources on which you have delete permission via the <img src="https://solid.github.io/solid-ui/src/originalIcons/tango/22-emblem-system.png" alt="Under the Hood" width="16"> [Under the Hood](https://github.com/solid/userguide/blob/master/views/underthehood/userguide.md) view.
 
 ## Context-Free Functionality
 Via the Data Browser, you can access and maintain resources within your account, even if you have navigated to a different Pod.
@@ -146,10 +146,10 @@ To access the context-free functionality:
 1. Display the dropdown menu in the top-right corner of the Data Browser by clicking your Profile photo.
 2. Select the appropriate menu option.
 
-_Tip: Alternatively, you can access some of the context-free functionality by clicking the Solid logo in the Data Browser header, and then click the appropriate tab._
+_**Tip:** Alternatively, you can access some of the context-free functionality by clicking the Solid logo in the Data Browser header, and then click the appropriate tab._
 
 ### Show your profile
-You can view how other people see your profile.
+You can view your profile as other people will see it.
 
 To view your public profile:
 1. Select **Show your profile** from the dropdown menu.
@@ -172,7 +172,7 @@ To streamline the options presented when viewing data, you can select your role:
 * Power User. In addition to Normal User, view additional Data Browser views such as Note Pad and Meetings.
 
 To update:
-1. Select you role(s) from the Roles listbox:
+1. Select your role(s) from the Roles listbox:
 
     <img src=".gitbook/assets/Roles_Listbox.png" alt="Roles listbox" width="109">
 
@@ -180,11 +180,11 @@ To update:
     
 2. Click off the listbox.
 
-_Tip: You need to refresh your web browser for the role changes to take affect._
+_**Tip:** You need to refresh your web browser for the role changes to take affect._
 
 #### Manage your trusted applications
 
-Before you can use third-party applications, you need to whitelist them (i.e., trust them to access data within your Pod) via the Trusted Application table:
+Before you can use third-party applications, you need to whitelist them (i.e., list them as trusted to access data within your Pod) via the Trusted Application table:
 
 <img src=".gitbook/assets/Manage_Your_Trusted_Apps.png" alt="Manage your Trusted Applications table" width="1024" style="border: 1; border-style:solid; border-color: rgb(200,200,200)">
 
@@ -210,9 +210,9 @@ If you no longer want your Solid Pod, you can delete your account:
 2. You are redirected to the Delete Account page for the Solid server.
 3. Follow the displayed instructions to delete your account.
 
-_Note: The actual workflow for deleting your account depends upon the Solid server you are using. For example, [Node Solid Server (NSS)](https://github.com/solid/node-solid-server/blob/master/docs/how-to-delete-your-account.md)._
+_**Note:** The actual workflow for deleting your account depends upon the Solid server you are using. For example, [Node Solid Server (NSS)](https://github.com/solid/node-solid-server/blob/master/docs/how-to-delete-your-account.md)._
 
-_Tip: Once your account is deleted, all of the data is deleted and cannot be restored._
+_**Warning:** When your account is deleted, all of the data is deleted and cannot be restored._
 
 ### Edit you profile
 You can setup a public profile that will be visible to visitors to your Pod.
