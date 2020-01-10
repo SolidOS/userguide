@@ -36,14 +36,14 @@ _**Tip:** If you have edit permissions to the meeting, any edits you make are im
 ## Attendees
 Attendees can be added to the meeting. To invite the first attendee:
 1. Highlight a WebID.
-2. Drag-and-drop the WebID onto the meeting tab.
+2. Drag-and-drop the WebID onto the meeting tab bar.
 3. An **Attendees** tab will be created.
 
 To invite more attendees:
 1. Make sure the **Attendees** tab is active.
-2. The list of existing meeting attendees will be displayed in an [Address Book](https://github.com/solid/userguide/blob/master/views/addressbook/userguide.md) group.
+2. The list of existing meeting attendees is displayed in an [Address Book](https://github.com/solid/userguide/blob/master/views/addressbook/userguide.md) group.
 2. Highlight a WebID.
-3. Drag-and-drop the WebID onto the meeting tab.
+3. Drag-and-drop the WebID onto the tab bar.
 4. The new attendee will be added to the meeting.
 
 _**Tip**: You may need to refresh the web page to see new meeting attendees._
@@ -58,11 +58,17 @@ In addition to the basic meeting information and tools, you can add more tools t
     - <img src="https://solid.github.io/solid-ui/src/icons/noun_79217.svg" alt="Shared Tools" width="16"> Shared Notes. A shared multi-user [Note Pad](https://github.com/solid/userguide/blob/master/views/views/notepad/userguide.md).
     - <img src="https://solid.github.io/solid-ui/src/icons/noun_346319.svg" alt="Chat" width="16"> [Chat](https://github.com/solid/userguide/blob/master/views/chat/userguide.md). A short chat session. 
     - <img src="https://solid.github.io/solid-ui/src/icons/noun_17020.svg" alt="Actions" width="16"> Actions. [Issue Tracker](https://github.com/solid/issue-pane/blob/master/README.md) to track issues and action itens.
-    - <img src="https://solid.github.io/solid-ui/src/icons/noun_260227.svg" alt="Video Call" width="16"> Video Call. Conduct a video call for the meeting. _**Note:** The availability of this functionality is dependent upon your web browser iFrame rules and camera permissions._
+    - <img src="https://solid.github.io/solid-ui/src/icons/noun_260227.svg" alt="Video Call" width="16"> Video Call. Conduct a video call for the meeting. _**Note:** The availability of this functionality is dependent upon your web browser [iFrame](https://www.w3.org/TR/2011/WD-html5-20110525/the-iframe-element.html#the-iframe-element) rules and camera permissions._
     - <img src="https://solid.github.io/solid-ui/src/icons/noun_123691.svg" alt="Sharing" width="16"> [Sharing](https://github.com/solid/userguide/blob/master/views/sharing/userguide.md). Display/update the sharing permissions for the meeting.
     - <img src="https://solid.github.io/solid-ui/src/icons/noun_66617.svg" alt="Meeting" width="16"> Meeting. Setup another meeting.
 3. Click the appropriate icon for the tool you want to add.
-4. If appropriate, a new tool tab is added to the tab bar for the meeting.
+4. If appropriate, a new tab for the selected tool is added to the tab bar for the meeting.
 5. Click on the tool tab to activate/display the tool.
 
-_**Tip:** Drag URL-bar icons of web pages into the tab bar on the left to add new meeting materials._
+## Add Meeting Materials
+For reference, meeting materials available via a URL can be added to the meeting:
+1. Highlight the web page URL for the material.
+2. Drag-and-drop the URL onto the tab bar.
+3. If appropriate, a new tab for the material is added to the tab bar for the meeting.
+4. Click on the appropriate materials tab to display the material.
+5. Where possible, the material is displayed in an [iFrame](https://www.w3.org/TR/2011/WD-html5-20110525/the-iframe-element.html#the-iframe-element) within your web browser. _**Note:** To resize the iFrame containing the material, use the resizing bar in the bottom-right corner of the iFrame._
