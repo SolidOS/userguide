@@ -168,21 +168,22 @@ To display the Preferences view:
 2. Click the **Preferences** tab.
 
 #### Role
-To streamline the options presented when viewing data, you can select your role:
-* Normal User. Can view all standard social views.
-* Developer. In addition to Normal User, view Data, N3, and RDF views of the data.
-* Power User. In addition to Normal User, view additional Data Browser views such as Note Pad and Meetings.
+The options presented to you when viewing data can be customised based on your role. By default, all users can view all standard social views. Optionally, you can select one or more role(s) that provide access to advanced views in addition to the default views:
+* Developer. View Data, N3, and RDF views of the data.
+* Power User. View additional Data Browser views such as [Note Pad](https://github.com/solid/userguide/blob/master/views/views/notepad/userguide.md) and [Meeting](https://github.com/solid/userguide/blob/master/views/meeting/userguide.md).
 
 To update:
-1. Select your role(s) from the Roles listbox:
+1. Select your optional role(s) from the Roles listbox:
 
     <img src=".gitbook/assets/Roles_Listbox.png" alt="Roles listbox" width="109">
 
-    Multiple Roles can be selected by holding down the Shift or Command key on your keyboard. 
+    _**Tip:** Multiple Roles can be selected by holding down the Shift or Command key on your keyboard._
     
 2. Click off the listbox.
 
 _**Tip:** You need to refresh your web browser for the role changes to take affect._
+
+For more details on Roles, refer to the [User Roles](https://github.com/solid/userguide/blob/master/appendix/userroles.md) appendix.
 
 #### Manage your trusted applications
 
