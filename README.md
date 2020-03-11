@@ -97,7 +97,7 @@ To view an existing folder or data resource:
         * <img src="https://solid.github.io/solid-ui/src/icons/noun_97839.svg" alt="Issue Tracker" width="16">  [Issue Tracker](https://github.com/solid/issue-pane/blob/master/README.md). A flexible issue tracking system. To configure an issue tracker, follow the [configuration](https://github.com/solid/issue-pane/blob/master/Documentation/Configuration.md) instructions. 
         * <img src="https://solid.github.io/solid-ui/src/icons/noun_1689339.svg" alt="Long Chat" width="16"> [Long Chat](https://github.com/solid/userguide/blob/master/views/longchat/userguide.md). A multi-day chat session.
         * <img src="https://solid.github.io/solid-ui/src/icons/noun_66617.svg" alt="Meeting" width="16"> [Meeting](https://github.com/solid/userguide/blob/master/views/meeting/userguide.md). Meeting details.
-        * <img src="https://solid.github.io/solid-ui/src/icons/noun_79217.svg" alt="Note Pad" width="16"> [Note Pad](https://github.com/solid/userguide/blob/master/views/views/notepad/userguide.md). A multi-user notepad.
+        * <img src="https://solid.github.io/solid-ui/src/icons/noun_79217.svg" alt="Note Pad" width="16"> [Note Pad](https://github.com/solid/userguide/blob/master/views/notepad/userguide.md). A multi-user notepad.
         * <img src="https://solid.github.io/solid-ui/src/icons/noun_346777.svg" alt="Scheduled Event" width="16"> [Scheduled Event](https://github.com/solid/userguide/blob/master/views/scheduledevent/userguide.md).
         * <img src="https://solid.github.io/solid-ui/src/icons/noun_138712.svg" alt="Slideshow" width="16"> Slideshow. Display a slideshow of the images contained within the container.
     * Alternate Views:
@@ -127,7 +127,7 @@ To create a new folder or data resource:
     * <img src="https://solid.github.io/solid-ui/src/icons/noun_973694_expanded.svg" alt="Folder" width="16"> Folder. A named folder.
     * <img src="https://solid.github.io/solid-ui/src/icons/noun_1689339.svg" alt="Long Chat" width="16"> [Long Chat](https://github.com/solid/userguide/blob/master/views/longchat/userguide.md). A multi-day chat session.
     * <img src="https://solid.github.io/solid-ui/src/icons/noun_66617.svg" alt="Meeting" width="16"> [Meeting](https://github.com/solid/userguide/blob/master/views/meeting/userguide.md).
-    * <img src="https://solid.github.io/solid-ui/src/icons/noun_79217.svg" alt="Note Pad" width="16"> [Note Pad](https://github.com/solid/userguide/blob/master/views/views/notepad/userguide.md). A multi-user notepad.
+    * <img src="https://solid.github.io/solid-ui/src/icons/noun_79217.svg" alt="Note Pad" width="16"> [Note Pad](https://github.com/solid/userguide/blob/master/views/notepad/userguide.md). A multi-user notepad.
     * <img src="https://solid.github.io/solid-ui/src/icons/noun_346777.svg" alt="Scheduled Event" width="16"> [Scheduled Event](https://github.com/solid/userguide/blob/master/views/scheduledevent/userguide.md).
     * <img src="https://solid.github.io/solid-ui/src/icons/noun_109873.svg" alt="Source" width="16"> [Source](https://github.com/solid/userguide/blob/master/views/source/userguide.md). Create a text files (e.g., Turtle, JSON, RDF, ShEx and SHACL shapes, etc.).
 4. Select the type of resource you want to create.
