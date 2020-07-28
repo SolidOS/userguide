@@ -114,6 +114,8 @@ To view an existing folder or data resource:
 
 _**Tip:** Each of the icons are toggle buttons. Click the icon again to close the view._
 
+_**Tip:** To view a single resource in a new browser tab, click-and-drag a displayed resource name to the browser tab bar._
+
 ### Creating new Data
 You can create new folders and data within any Pod folder to which you have create access.
 
