@@ -33,7 +33,7 @@ The Data Browser is your de-facto default interface to Solid, enabling you to cr
 ## Accessing
 To access the data stored in a Solid Pod via the Data Browser:
 
-1. In a web browser, navigate to the root Uniform Resource Locator (URL) for the Pod you want to access (e.g., [`https://suser.solid.community`](https://suser.solid.community)):
+1. In a web browser, navigate to the root Uniform Resource Locator (URL) for the Pod you want to access (e.g., [`https://suser.solidcommunity.net`](https://suser.solidcommunity.net)):
 2. You will see a view of the public data within the Pod:
 
     <img src=".gitbook/assets//Public_Home.png" alt="Home View (Public)" width="1024" style="border: 1; border-style:solid; border-color: rgb(200,200,200)">
